@@ -1,3 +1,5 @@
+import java.util.Random;
+
 public enum Month {
     JANUARY("Január"),
     FEBRUARY("Február"),
@@ -41,5 +43,11 @@ public enum Month {
         return this.ordinal() + 1;
     }
 
+    public static Month getRandomMonth() { // <- static metódus, mert osztályszintű, neme gy adott példányhoz kapcsolódik
+        Random random = new Random(); // <- ezt is érdemesebb lenne elmenteni osztályszintű (static) változóként
+        Month[] months = Month.values();
+        return months[random.nextInt(months.length)];
+        // VAGY külön változó nélkül: return Month.values()[random.nextInt(Month.values().length)];
+    }
 
 }
