@@ -1,6 +1,6 @@
 # Enumeráció
 
-Nézzünk meg pár extrásabb enumot! Enumokba is tudunk fieldeket, metódusokat és konsturktort írni,
+Nézzünk meg pár extrásabb enumot! Enumokba is tudunk fieldeket, metódusokat és konstruktort írni,
 erre találsz példát a `Coffee.java` fájlban!
 
 ## 3. Komplex Month Enum 
