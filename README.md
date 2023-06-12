@@ -1,8 +1,13 @@
 # Enumeráció
 
-Az enumeráció (vagy magyarul felsorolás) egy olyan speciális osztály Javaban,
-ami konstans adatok állandó és fix méretű csoportját jelenti.
-Mik lehetnek ezek? 
-Olyan adatok, amelyek garantáltan nem fognak megváltozni, 
-vagy egyenesen tiltott, sőt értelmetlen megváltoztatni.
-Például a hét napjai, hónapok, évszakok, égtájak, stb.
+## 1. Egyszerű Month Enum 
+Készíts egy enumerációt és töltsd fel a 12 hónappal!
+Írd ki, most milyen hónap van, majd írasd ki az összes hónapot 
+(`forach` használatával)!
+
+## 2. Egyszerű Seasons Enum
+Készíts egy enumerációt és töltsd fel a 4 évszakkal!
+Írd ki most milyen évszak van, majd írasd ki az összes évszakot!
+
+
+

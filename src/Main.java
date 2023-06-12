@@ -1,21 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        // Enum konstansok lértehozása
-        Day today = Day.MONDAY;
-        System.out.println("Today is " + today);
+        System.out.println("Current month: " + Month.JUNE);
 
-        // Ugyanez egy sorban
-        System.out.println("Tomorrow is " + Day.TUESDAY);
-
-        // Enum konstansok összehasonlítása
-        if (today == Day.WEDNESDAY) {
-            System.out.println("It's Wednesday!");
+        for (Month month : Month.values()) {
+            System.out.println(month);
         }
 
-        System.out.println("The days of the week:");
-        // Enum konstansokon való végigiterálás
-        for (Day day : Day.values()) {
-            System.out.println(day);
+        System.out.println("Current season: " + Season.SPRING);
+
+        for (Season season : Season.values()) {
+            System.out.println(season);
         }
     }
 }
