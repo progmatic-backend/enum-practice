@@ -1,5 +1,3 @@
-# enum-practice
-
 # Enumeráció
 
 Az enumeráció (vagy magyarul felsorolás) egy olyan speciális osztály Javaban,
