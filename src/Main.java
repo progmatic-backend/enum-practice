@@ -1,15 +1,15 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Current month: " + Month.JUNE);
+        System.out.println("A mostani hónap: " + Month.JUNE.getMagyarNev());
 
         for (Month month : Month.values()) {
             System.out.println(month);
         }
 
-        System.out.println("Current season: " + Season.SPRING);
+        System.out.println("Most " + Season.SUMMER + " van.");
 
-        for (Season season : Season.values()) {
-            System.out.println(season);
+        for (Season evszak : Season.values()) {
+            System.out.println(evszak);
         }
     }
 }
